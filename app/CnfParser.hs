@@ -1,6 +1,6 @@
-module Parser (Lit, Clause, Formula, parse) where
+module CnfParser (Lit, Clause, Formula, parse) where
 
-import Lexer (Token(..))
+import CnfLexer (Token(..))
 
 -- A negative integer represents a negated variable.
 type Lit = Integer

@@ -1,0 +1,7 @@
+c A proof for contradiction.cnf, which contains both 1 and -1.
+c Add a redundant copy of the unit clause 1, then delete one copy.
+1 0
+d 1 0
+c Unit propagation on the remaining contradictory units gives a conflict.
+c Adding the empty clause finishes the refutation.
+0
