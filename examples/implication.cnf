@@ -1,0 +1,5 @@
+c If variable 1 is true, variable 2 must be true.
+c This is the clause: NOT 1 OR 2.
+c If variable 1 is false, either value of variable 2 works.
+p cnf 2 1
+-1 2 0

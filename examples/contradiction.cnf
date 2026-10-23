@@ -1,0 +1,6 @@
+c This formula cannot be satisfied.
+c The first clause requires variable 1 to be true.
+c The second requires the same variable to be false.
+p cnf 1 2
+1 0
+-1 0
