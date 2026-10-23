@@ -2,7 +2,7 @@ module Main (main) where
 
 import System.Environment (getArgs)
 import Lexer (tokenize)
-import Printer (printTokens)
+import Parser (parse)
 
 main :: IO ()
 main = do
@@ -10,5 +10,5 @@ main = do
   case args of
     [path] -> do
       contents <- readFile path
-      printTokens (tokenize contents)
+      print (parse (tokenize contents))
     _ -> putStrLn "Usage: babys-first-proof-checker <file>"
