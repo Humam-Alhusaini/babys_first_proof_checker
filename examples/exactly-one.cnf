@@ -2,7 +2,7 @@ c Exactly one of variables 1 and 2 must be true.
 c The first clause requires at least one to be true.
 c The second clause prevents both from being true.
 c A negative integer means NOT; each 0 ends a clause.
-c The header declares 2 variables and 2 clauses. (P \/ Q) /\ (P \/ Q)
+c The header declares 2 variables and 2 clauses. (P \/ Q) /\ (~P \/ ~Q)
 p cnf 2 2
 1 2 0
 -1 -2 0

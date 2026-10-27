@@ -62,7 +62,7 @@ executable babys-first-proof-checker
     main-is:          Main.hs
 
     -- Modules included in this executable, other than Main.
-    other-modules: CnfLexer, CnfParser, Printer, DrupLexer, DrupParser
+    other-modules: CnfLexer, CnfParser, Printer, DrupLexer, DrupParser, Checker
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
